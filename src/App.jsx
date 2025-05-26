@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import Header from '../src/components/Header';
 
 function App() {
   return (
     <>
-      <h1>HELLO LUNARA!!</h1>
+      <Header />
     </>
   );
 }
