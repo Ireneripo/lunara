@@ -7,7 +7,7 @@ function Navbar() {
     <>
       <div className='flex items-center'>
         <Logo />
-        <ul className='flex pt-1.5 gap-6 ml-20'>
+        <ul className='flex gap-6 ml-20'>
           <li className='hover:font-medium'>For You</li>
           <li className='hover:font-medium'>For Business</li>
           <li className='hover:font-medium'>For Providers</li>

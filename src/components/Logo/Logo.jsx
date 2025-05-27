@@ -2,7 +2,7 @@ import React from 'react';
 
 function Logo() {
   return (
-    <div className='flex'>
+    <div className='flex pb-1.5'>
       <img
         src='src/assets/logo.svg'
         className='size-9'
