@@ -9,7 +9,7 @@ function Hero() {
           Find your path to mental wellness
         </h1>
         <p className='text-lg'>
-          Our app is a collection of tools to help you manage your mental
+          Discover the power of mindfulness and meditation with our app.
         </p>
         <Button className='bg-[#141313]/90 hover:bg-[#141313] text-white px-11 py-5 rounded-full shadow shadow-gray-500 text-xl font-semibold mt-6 cursor-pointer'>
           Try 14 days free
