@@ -5,9 +5,9 @@ function Logo() {
     <div className='flex'>
       <img
         src='src/assets/logo.svg'
-        className='size-10'
+        className='size-9'
       />
-      <p className='fredoka-lunara self-center text-2xl pl-2'>lunara</p>
+      <p className='fredoka-lunara self-center text-2xl pl-1.5'>lunara</p>
     </div>
   );
 }
