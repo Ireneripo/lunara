@@ -10,7 +10,7 @@ function Hero() {
         </h1>
         <p className='text-lg text-gray-500'>
           Discover the power of mindfulness and meditation with our app, improve
-          your sleep and say goodbay to stressful days.
+          your sleep and say goodbye to stressful days.
         </p>
         <Button className='bg-[#141313]/90 hover:bg-[#141313] text-white px-11 py-5 rounded-full shadow shadow-gray-500 text-xl font-semibold mt-6 cursor-pointer'>
           Try 14 days free
