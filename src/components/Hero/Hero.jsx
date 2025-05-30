@@ -17,16 +17,11 @@ function Hero() {
             Try for $0
           </Button>
         </div>
-        <div className='relative w-[850px] h-[500px]'>
+        <div className='w-[850px]'>
           <img
-            className='absolute w-[850px]'
-            src='src/assets/phone-background.png'
-            alt='Phone background'
-          />
-          <img
-            className='absolute z-10 w-[350px] left-[100px]'
-            src='src/assets/hero-phone.png'
-            alt='Phone mockup'
+            className='w-full'
+            src='src/assets/hero2.png'
+            alt='Phone with background'
           />
         </div>
       </div>
