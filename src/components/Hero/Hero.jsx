@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 function Hero() {
   return (
     <div className='w-full flex justify-center'>
-      <div className='flex gap-12 p-12 my-0 w-[85%]'>
+      <div className='flex gap-12 px-14 w-[85%]'>
         <div className='self-center'>
           <h1 className='text-6xl font-semibold mb-4'>
             Find your path to mental wellness
