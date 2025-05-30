@@ -20,7 +20,7 @@ function Hero() {
         <div className='w-[850px]'>
           <img
             className='w-full'
-            src='src/assets/hero2.png'
+            src='src/assets/hero.png'
             alt='Phone with background'
           />
         </div>
