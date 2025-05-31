@@ -1,0 +1,12 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#E8F4FD"/>
+            <stop offset="100%" stop-color="#B8E6FF"/>
+        </linearGradient>
+    </defs>
+    <path d="M20 50 C10 45, 5 35, 15 30 C18 25, 25 28, 30 25 C40 20, 50 28, 55 35 C60 30, 70 35, 65 45 C70 50, 60 55, 50 52 Z"
+          fill="url(#cloudGrad)"/>
+    <circle cx="35" cy="40" r="2" fill="#7BB3F0" opacity="0.6"/>
+    <circle cx="45" cy="45" r="1.5" fill="#7BB3F0" opacity="0.4"/>
+</svg>

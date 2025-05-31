@@ -1,0 +1,10 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="spiralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#E0E7FF"/>
+            <stop offset="100%" stop-color="#6366F1"/>
+        </linearGradient>
+    </defs>
+    <path d="M50 50 C50 40, 60 40, 60 50 C60 65, 35 65, 35 50 C35 30, 75 30, 75 50 C75 80, 15 80, 15 50"
+          fill="none" stroke="url(#spiralGrad)" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="stoneGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F3F4F6"/>
+            <stop offset="100%" stop-color="#9CA3AF"/>
+        </linearGradient>
+        <linearGradient id="stoneGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FEF7CD"/>
+            <stop offset="100%" stop-color="#D69E2E"/>
+        </linearGradient>
+    </defs>
+    <ellipse cx="50" cy="75" rx="22" ry="10" fill="url(#stoneGrad1)"/>
+    <ellipse cx="50" cy="58" rx="18" ry="8" fill="url(#stoneGrad2)"/>
+    <ellipse cx="50" cy="44" rx="12" ry="6" fill="url(#stoneGrad1)"/>
+</svg>

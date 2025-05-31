@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FEF3C7"/>
+            <stop offset="50%" stop-color="#FCD34D"/>
+            <stop offset="100%" stop-color="#F59E0B"/>
+        </linearGradient>
+    </defs>
+    <path d="M15 50 Q35 30, 55 50 Q75 70, 95 50" fill="none" stroke="url(#waveGrad)" stroke-width="6"
+          stroke-linecap="round"/>
+    <path d="M20 60 Q40 40, 60 60 Q80 80, 90 60" fill="none" stroke="url(#waveGrad)" stroke-width="4"
+          stroke-linecap="round" opacity="0.6"/>
+</svg>
