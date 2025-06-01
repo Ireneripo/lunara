@@ -5,11 +5,11 @@ import Need from '../src/components/Need';
 
 function App() {
   return (
-    <div className='bg-[#F9F4F2]'>
+    <>
       <Header />
       <Hero />
       <Need />
-    </div>
+    </>
   );
 }
 
