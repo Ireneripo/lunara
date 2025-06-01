@@ -3,8 +3,8 @@ import Button from '../Button/Button';
 
 function Hero() {
   return (
-    <div className='w-full flex justify-center py-8'>
-      <div className='flex gap-20 px-14 w-[85%]'>
+    <div className='flex justify-between items-center py-8 px-12 max-w-7xl mx-auto gap-22'>
+      <div className='w-1/2'>
         <div className='self-center'>
           <h1 className='text-6xl font-semibold mb-4'>
             Find your path to mental wellness
@@ -17,13 +17,13 @@ function Hero() {
             Try for $0
           </Button>
         </div>
-        <div className='w-[850px]'>
-          <img
-            className='w-full'
-            src='src/assets/hero.png'
-            alt='Phone with background'
-          />
-        </div>
+      </div>
+      <div className='w-1/2'>
+        <img
+          className='w-full'
+          src='src/assets/hero.png'
+          alt='Phone with background'
+        />
       </div>
     </div>
   );
