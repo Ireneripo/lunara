@@ -7,13 +7,31 @@ function Need() {
       <h2 className="text-4xl font-semibold">
         What kind of meditation do you need right now?
       </h2>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mt-12">
-        <NeedCard imageSrc={'src/assets/need7.svg'}/>
-        <NeedCard imageSrc={'src/assets/need2.svg'}/>
-        <NeedCard imageSrc={'src/assets/need3.svg'}/>
-        <NeedCard imageSrc={'src/assets/need4.svg'}/>
-        <NeedCard imageSrc={'src/assets/need8.svg'}/>
-        <NeedCard imageSrc={'src/assets/need6.svg'}/>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mt-12 w-[98%]">
+        <NeedCard
+          imageSrc={'src/assets/need7.svg'}
+          title="Stress less"
+        />
+        <NeedCard
+          imageSrc={'src/assets/need2.svg'}
+          title="Sleep soundly"
+        />
+        <NeedCard
+          imageSrc={'src/assets/need3.svg'}
+          title="Manage anxiety"
+        />
+        <NeedCard
+          imageSrc={'src/assets/need4.svg'}
+          title="Process thoughts"
+        />
+        <NeedCard
+          imageSrc={'src/assets/need8.svg'}
+          title="Practice meditation"
+        />
+        <NeedCard
+          imageSrc={'src/assets/need6.svg'}
+          title="Start therapy"
+        />
       </div>
     </div>
   );
