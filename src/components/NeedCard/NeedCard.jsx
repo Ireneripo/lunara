@@ -3,7 +3,9 @@ import React from 'react';
 function NeedCard({ imageSrc, title }) {
   return (
     <div className="flex items-center w-full border-2 border-gray-300 rounded-lg p-3 cursor-pointer overflow-hidden lg:h-20">
-      <p className="lg:text-2xl text-lg truncate flex-1 font-light">{title}</p>
+      <p className="text-lg min-[1440px]:text-2xl truncate flex-1 font-light">
+        {title}
+      </p>
       <div className="flex items-center gap-3 flex-shrink-0 ml-3">
         <div className="w-12 h-12 lg:w-16 lg:h-16 flex-shrink-0">
           <img
