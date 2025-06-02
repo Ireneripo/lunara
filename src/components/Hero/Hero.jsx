@@ -14,7 +14,7 @@ function Hero() {
               Discover the power of mindfulness and meditation with our app,
               improve your sleep and say goodbye to stressful days.
             </p>
-            <Button className='bg-[#141313]/90 hover:bg-[#141313] text-white px-11 py-5 rounded-full shadow shadow-gray-500 text-2xl font-semibold mt-7 cursor-pointer'>
+            <Button className='bg-[#141313]/90 hover:bg-[#141313] text-white px-10 py-4 rounded-full shadow shadow-gray-500 text-2xl font-semibold mt-7 cursor-pointer'>
               Try for $0
             </Button>
           </div>
