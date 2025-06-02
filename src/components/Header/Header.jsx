@@ -5,13 +5,15 @@ import SuperHeader from '../SuperHeader/SuperHeader';
 
 function Header() {
   return (
-    <div className='bg-[#ffffff]'>
+    <>
       <SuperHeader>Lunara therapy is now available →</SuperHeader>
-      <div className='flex justify-between mx-12 h-20'>
-        <Navbar />
-        <Options />
+      <div className='bg-[#ffffff] sticky top-0'>
+        <div className='flex justify-between mx-12 h-20'>
+          <Navbar />
+          <Options />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
