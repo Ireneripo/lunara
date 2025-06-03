@@ -1,0 +1,84 @@
+import React from 'react';
+import Logo from '../Logo/Logo';
+import Button from '../Button/Button';
+import { List, X, CaretRight } from '@phosphor-icons/react';
+
+function MobileNav() {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const menuItems = [
+    { name: 'For You', href: '/for-you' },
+    { name: 'For Business', href: '/for-business' },
+    { name: 'For Providers', href: '/for-providers' },
+    { name: 'Our Plans', href: '/our-plans' },
+    { name: 'Resources', href: '/resources' },
+    { name: 'About', href: '/about' },
+  ];
+
+  return (
+    <>
+      <div className="flex justify-between items-center w-full">
+        <Logo />
+
+        <div className="flex items-center gap-6">
+          <Button className="bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow shadow-gray-500 min-w-fit cursor-pointer font-semibold h-8 px-6 text-sm">
+            Try for free
+          </Button>
+          <button
+            className="cursor-pointer"
+            onClick={toggleMenu}
+          >
+            {!isMenuOpen && (
+              <List
+                size={30}
+                weight="light"
+              />
+            )}
+          </button>
+        </div>
+      </div>
+      {isMenuOpen && (
+        <div className="fixed top-0 right-0 w-90 p-4 bg-white shadow-2xl shadow-gray-300">
+          <div className="flex justify-end mb-8 h-18">
+            <button
+              className="cursor-pointer"
+              onClick={toggleMenu}
+            >
+              {isMenuOpen && (
+                <X
+                  size={30}
+                  weight="bold"
+                />
+              )}
+            </button>
+          </div>
+          <div className="">
+            <nav>
+              <ul className="flex flex-col gap-8 text-2xl">
+                {menuItems.map((item) => (
+                  <li
+                    key={item.name}
+                    className="flex justify-between items-center gap-6 cursor-pointer"
+                  >
+                    {item.name}
+                    <CaretRight
+                      size={20}
+                      weight="bold"
+                    />
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </div>
+          <div className="border-t border-gray-500 mt-8"></div>
+        </div>
+      )}
+    </>
+  );
+}
+
+export default MobileNav;
