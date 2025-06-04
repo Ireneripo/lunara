@@ -1,7 +1,13 @@
 import React from 'react';
 import Logo from '../Logo/Logo';
 import Button from '../Button/Button';
-import { List, X, CaretRight } from '@phosphor-icons/react';
+import {
+  List,
+  X,
+  CaretRight,
+  UserCircle,
+  Question,
+} from '@phosphor-icons/react';
 
 function MobileNav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -42,7 +48,7 @@ function MobileNav() {
         </div>
       </div>
       {isMenuOpen && (
-        <div className="fixed top-0 right-0 w-90 p-4 bg-white shadow-2xl shadow-gray-300">
+        <div className="fixed top-0 right-0 w-90 p-4 bg-white shadow-2xl shadow-gray-300 h-screen">
           <div className="flex justify-end mb-8 h-18">
             <button
               className="cursor-pointer"
@@ -75,6 +81,36 @@ function MobileNav() {
             </nav>
           </div>
           <div className="border-t border-gray-500 mt-8"></div>
+          <div className="flex flex-col pt-6 mt-2 font-bold text-lg">
+            <button className="flex items-center gap-2 cursor-pointer h-12">
+              <UserCircle
+                size={28}
+                weight="bold"
+                className="text-gray-400"
+              />
+              Login
+            </button>
+            <button className="flex items-center gap-2 cursor-pointer h-12">
+              <Question
+                size={28}
+                weight="bold"
+                className="text-gray-400"
+              />
+              Help
+            </button>
+          </div>
+          <div className="mt-8 flex justify-center">
+            <div className="relative w-[300px]">
+              <img
+                className="rounded-3xl w-full h-[230px] object-cover"
+                src="src/assets/MobileNavSun.webp"
+                alt="MobileNavSun"
+              />
+              <div className="absolute bottom-0 w-full bg-[#F9F4F2] rounded-b-3xl shadow-md py-4 flex items-center justify-center h-[42px]">
+                <p>Try for free →</p>
+              </div>
+            </div>
+          </div>
         </div>
       )}
     </>
