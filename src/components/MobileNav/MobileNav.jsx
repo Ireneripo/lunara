@@ -85,7 +85,7 @@ function MobileNav() {
                 </ul>
               </nav>
             </div>
-            <div className="border-t border-gray-500 mt-8"></div>
+            <div className="border-t border-1 border-gray-400 mt-8"></div>
             <div className="flex flex-col pt-6 mt-2 font-bold text-lg">
               <button className="flex items-center gap-2 cursor-pointer h-12">
                 <UserCircle
