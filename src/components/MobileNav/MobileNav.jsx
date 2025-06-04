@@ -99,8 +99,8 @@ function MobileNav() {
               Help
             </button>
           </div>
-          <div className="mt-8 flex justify-center">
-            <div className="relative w-[300px]">
+          <div className="hidden md:flex mt-8 justify-center">
+            <div className="relative w-[300px] cursor-pointer">
               <img
                 className="rounded-3xl w-full h-[230px] object-cover"
                 src="src/assets/MobileNavSun.webp"
@@ -110,6 +110,11 @@ function MobileNav() {
                 <p>Try for free →</p>
               </div>
             </div>
+          </div>
+          <div className="absolute bottom-8 w-full">
+            <Button className="text-white rounded-full hover:rounded-[32px] bg-gray-800 hover:bg-black shadow shadow-gray-500 w-[90%] h-18 cursor-pointer font-bold text-2xl mx-auto">
+              Get started
+            </Button>
           </div>
         </div>
       )}
