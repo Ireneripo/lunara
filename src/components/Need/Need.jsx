@@ -1,5 +1,11 @@
 import React from 'react';
 import NeedCard from '../NeedCard/NeedCard';
+import need7 from '../../assets/need7.svg';
+import need2 from '../../assets/need2.svg';
+import need3 from '../../assets/need3.svg';
+import need4 from '../../assets/need4.svg';
+import need8 from '../../assets/need8.svg';
+import need6 from '../../assets/need6.svg';
 
 function Need() {
   return (
@@ -9,27 +15,27 @@ function Need() {
       </h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 w-[98%]">
         <NeedCard
-          imageSrc={'src/assets/need7.svg'}
+          imageSrc={need7}
           title="Stress less"
         />
         <NeedCard
-          imageSrc={'src/assets/need2.svg'}
+          imageSrc={need2}
           title="Sleep soundly"
         />
         <NeedCard
-          imageSrc={'src/assets/need3.svg'}
+          imageSrc={need3}
           title="Manage anxiety"
         />
         <NeedCard
-          imageSrc={'src/assets/need4.svg'}
+          imageSrc={need4}
           title="Process thoughts"
         />
         <NeedCard
-          imageSrc={'src/assets/need8.svg'}
+          imageSrc={need8}
           title="Practice meditation"
         />
         <NeedCard
-          imageSrc={'src/assets/need6.svg'}
+          imageSrc={need6}
           title="Start therapy"
         />
       </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../Button/Button';
+import hero from '../../assets/hero.webp';
 
 function Hero() {
   return (
@@ -22,7 +23,7 @@ function Hero() {
         <div className="w-full mt-[-80px] md:mt-0 md:w-1/2 flex justify-center">
           <img
             className="w-11/12"
-            src="src/assets/hero.webp"
+            src={hero}
             alt="Phone with background"
           />
         </div>

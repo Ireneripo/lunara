@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/logo.svg';
 
 function Logo() {
   const [isDesktop, setIsDesktop] = React.useState(true);
@@ -17,14 +18,14 @@ function Logo() {
   return isDesktop ? (
     <div className="flex pb-1.5">
       <img
-        src="src/assets/logo.svg"
+        src={logo}
         className="size-10"
       />
       <p className="fredoka-lunara self-center text-2xl pl-1.5">lunara</p>
     </div>
   ) : (
     <img
-      src="src/assets/logo.svg"
+      src={logo}
       className="size-10"
     />
   );
