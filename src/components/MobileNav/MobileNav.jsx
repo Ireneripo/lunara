@@ -69,7 +69,7 @@ function MobileNav() {
             </div>
             <div className="">
               <nav>
-                <ul className="flex flex-col gap-5 text-2xl">
+                <ul className="flex flex-col gap-5 md:gap-8 text-2xl">
                   {menuItems.map((item) => (
                     <li
                       key={item.name}
