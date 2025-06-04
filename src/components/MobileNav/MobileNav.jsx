@@ -49,7 +49,7 @@ function MobileNav() {
       </div>
       {isMenuOpen && (
         <div className="fixed top-0 right-0 w-90 p-4 bg-white shadow-2xl shadow-gray-300 h-screen">
-          <div className="flex justify-end mb-8 h-18">
+          <div className="flex justify-end mb-5 h-18">
             <button
               className="cursor-pointer"
               onClick={toggleMenu}
@@ -58,13 +58,14 @@ function MobileNav() {
                 <X
                   size={30}
                   weight="bold"
+                  className="bg-gray-100 text-black rounded-full size-fit p-1"
                 />
               )}
             </button>
           </div>
           <div className="">
             <nav>
-              <ul className="flex flex-col gap-8 text-2xl">
+              <ul className="flex flex-col gap-5 text-2xl">
                 {menuItems.map((item) => (
                   <li
                     key={item.name}
