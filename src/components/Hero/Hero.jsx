@@ -4,13 +4,14 @@ import Button from '../Button/Button';
 function Hero() {
   return (
     <div className="bg-[#F9F4F2]">
-      <div className="flex justify-between items-center py-8 px-12 max-w-7xl mx-auto gap-22">
+      {/* <div className="flex justify-between items-center py-8 px-12 max-w-7xl mx-auto gap-22"> */}
+      <div className="flex flex-col items-center md:flex-row md:justify-between md:items-center py-8 px-12 max-w-7xl mx-auto gap-22">
         <div className="w-1/2">
           <div className="self-center">
-            <h1 className="text-6xl font-semibold mb-4">
+            <h1 className="text-center text-4xl md:text-left md:text-6xl font-semibold mb-4">
               Find your path to mental wellness
             </h1>
-            <p className="text-lg text-gray-500">
+            <p className="text-center md:text-left text-lg text-gray-500">
               Discover the power of mindfulness and meditation with our app,
               improve your sleep and say goodbye to stressful days.
             </p>
