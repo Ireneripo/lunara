@@ -116,7 +116,7 @@ function MobileNav() {
                 </div>
               </div>
             </div>
-            <div className="absolute bottom-8 w-full">
+            <div className="md:hidden absolute bottom-8 w-full">
               <Button className="text-white rounded-full hover:rounded-[32px] bg-gray-800 hover:bg-black shadow shadow-gray-500 w-[90%] h-18 cursor-pointer font-bold text-2xl mx-auto">
                 Get started
               </Button>
