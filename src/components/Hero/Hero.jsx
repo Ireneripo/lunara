@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 function Hero() {
   return (
     <div className="bg-[#F9F4F2]">
-      <div className="flex flex-col items-center md:flex-row md:justify-between md:items-center py-8 px-12 max-w-7xl mx-auto gap-22">
+      <div className="flex flex-col items-center md:flex-row md:justify-between md:items-center pt-14 md:py-8 px-12 max-w-7xl mx-auto gap-22">
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-semibold mb-4">
