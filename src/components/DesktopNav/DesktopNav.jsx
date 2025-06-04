@@ -17,7 +17,7 @@ function DesktopNav() {
       <div className="flex items-center">
         <Logo />
         <nav>
-          <ul className="flex gap-6 ml-20 cursor-pointer">
+          <ul className="flex gap-6 xl:ml-20 md:ml-7 cursor-pointer">
             {menuItems.map((item) => (
               <li
                 key={item.name}
