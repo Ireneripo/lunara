@@ -9,7 +9,7 @@ import need6 from "../../assets/need6.svg";
 
 function Need() {
   return (
-    <div className="flex flex-col items-center pt-16 pb-32 px-6 md:px-12 bg-white min-[1440px]:w-[90rem] mx-auto">
+    <div className="flex flex-col items-center pt-16 pb-16 px-6 md:px-12 bg-white min-[1440px]:w-[90rem] mx-auto">
       <h2 className="text-3xl font-semibold mt-5 mb-10 text-center">
         What kind of meditation do you need right now?
       </h2>
