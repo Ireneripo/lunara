@@ -1,8 +1,8 @@
-import React from 'react';
-import DesktopNav from '../DesktopNav/DesktopNav';
-import Options from '../Options/Options';
-import SuperHeader from '../SuperHeader/SuperHeader';
-import MobileNav from '../MobileNav/MobileNav';
+import React from "react";
+import DesktopNav from "../DesktopNav/DesktopNav";
+import Options from "../Options/Options";
+import SuperHeader from "../SuperHeader/SuperHeader";
+import MobileNav from "../MobileNav/MobileNav";
 
 function Header() {
   const [isScrolled, setIsScrolled] = React.useState(false);
@@ -13,8 +13,8 @@ function Header() {
       setIsScrolled(window.scrollY > 0);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   React.useEffect(() => {
@@ -24,8 +24,8 @@ function Header() {
 
     checkScreenSize();
 
-    window.addEventListener('resize', checkScreenSize);
-    return () => window.removeEventListener('resize', checkScreenSize);
+    window.addEventListener("resize", checkScreenSize);
+    return () => window.removeEventListener("resize", checkScreenSize);
   }, []);
 
   return (
@@ -33,10 +33,10 @@ function Header() {
       <SuperHeader>Lunara therapy is now available →</SuperHeader>
       <div
         className={`bg-[#ffffff] sticky top-0 ${
-          isScrolled ? 'shadow-lg' : ''
+          isScrolled ? "shadow-lg" : ""
         } w-screen`}
       >
-        <div className="flex justify-between mx-12 h-20">
+        <div className="flex justify-between px-6 h-16">
           {!isMobile && (
             <>
               <DesktopNav />
