@@ -1,13 +1,13 @@
-import React from 'react';
-import Logo from '../Logo/Logo';
-import Button from '../Button/Button';
+import React from "react";
+import Logo from "../Logo/Logo";
+import Button from "../Button/Button";
 import {
   List,
   X,
   CaretRight,
   UserCircle,
   Question,
-} from '@phosphor-icons/react';
+} from "@phosphor-icons/react";
 
 function MobileNav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -17,12 +17,12 @@ function MobileNav() {
   };
 
   const menuItems = [
-    { name: 'For You', href: '/for-you' },
-    { name: 'For Business', href: '/for-business' },
-    { name: 'For Providers', href: '/for-providers' },
-    { name: 'Our Plans', href: '/our-plans' },
-    { name: 'Resources', href: '/resources' },
-    { name: 'About', href: '/about' },
+    { name: "For You", href: "/for-you" },
+    { name: "For Business", href: "/for-business" },
+    { name: "For Providers", href: "/for-providers" },
+    { name: "Our Plans", href: "/our-plans" },
+    { name: "Resources", href: "/resources" },
+    { name: "About", href: "/about" },
   ];
 
   return (
@@ -52,7 +52,7 @@ function MobileNav() {
           className="fixed inset-0 z-[9998]"
           onClick={toggleMenu}
         >
-          <div className="fixed top-0 right-0 w-90 p-4 bg-white shadow-2xl shadow-gray-300 h-screen z-[9999] isolate">
+          <div className="fixed top-0 right-0 p-4 bg-white shadow-2xl shadow-gray-300 h-screen w-screen md:w-[50%] z-[9999] isolate">
             <div className="flex justify-end mb-5 h-18">
               <button
                 className="cursor-pointer"
