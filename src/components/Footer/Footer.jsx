@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
+import FooterEnd from "../FooterEnd/FooterEnd";
 
 function Footer() {
-  return <div></div>;
+  return (
+    <div>
+      <FooterEnd />
+    </div>
+  );
 }
 
 export default Footer;
