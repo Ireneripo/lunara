@@ -3,6 +3,7 @@ import Header from "../src/components/Header";
 import Hero from "../src/components/Hero";
 import Need from "../src/components/Need";
 import CarouselContainer from "../src/components/CarouselContainer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Need />
       <CarouselContainer />
+      <Footer />
     </>
   );
 }
