@@ -11,53 +11,58 @@ function FooterEnd() {
   return (
     <div className="bg-[#44423E] px-8 py-6">
       <div className="flex flex-col items-center gap-6">
-        <ul className="flex gap-6">
-          <li>
+        <ul className="flex">
+          <li className="rounded-full m-1.5 p-0.5 bg-[#44423E]">
             <a href="#">
               {
                 <FacebookLogo
-                  size={24}
+                  size={28}
                   color="white"
+                  weight="fill"
                 />
               }
             </a>
           </li>
-          <li>
+          <li className="rounded-full m-1.5 p-0.5 bg-[#44423E]">
             <a href="#">
               {
                 <InstagramLogo
-                  size={24}
+                  size={28}
                   color="white"
+                  weight="fill"
                 />
               }
             </a>
           </li>
-          <li>
+          <li className="rounded-full m-1.5 p-0.5 bg-[#44423E]">
             <a href="#">
               {
                 <LinkedinLogo
-                  size={24}
+                  size={28}
                   color="white"
+                  weight="fill"
                 />
               }
             </a>
           </li>
-          <li>
+          <li className="rounded-full m-1.5 p-0.5 bg-[#44423E]">
             <a href="#">
               {
                 <XLogo
-                  size={24}
+                  size={28}
                   color="white"
+                  weight="fill"
                 />
               }
             </a>
           </li>
-          <li>
+          <li className="rounded-full m-1.5 p-0.5 bg-[#44423E]">
             <a href="#">
               {
                 <YoutubeLogo
-                  size={24}
+                  size={28}
                   color="white"
+                  weight="fill"
                 />
               }
             </a>
