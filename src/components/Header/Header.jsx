@@ -36,7 +36,7 @@ function Header() {
           isScrolled ? "shadow-lg" : ""
         } w-screen`}
       >
-        <div className="flex justify-between mx-12 h-20">
+        <div className="flex justify-between px-6 md:px-12 h-20">
           {!isMobile && (
             <>
               <DesktopNav />
