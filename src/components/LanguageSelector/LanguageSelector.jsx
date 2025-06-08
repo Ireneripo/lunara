@@ -73,5 +73,3 @@ function LanguageSelector() {
 }
 
 export default LanguageSelector;
-
-// #44423E
