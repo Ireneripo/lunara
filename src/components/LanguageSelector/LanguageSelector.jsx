@@ -52,7 +52,7 @@ function LanguageSelector() {
       </Button>
 
       {isMenuOpen && (
-        <ul className="absolute bottom-full mb-4 bg-[#44423E] rounded-lg pt-3 px-3 pb-4 flex flex-col gap-1 z-50 w-full">
+        <ul className="absolute bottom-full bg-[#44423E] rounded-lg pt-3 px-3 pb-4 flex flex-col gap-1 z-50 w-full">
           {languages.map((language) => (
             <li
               key={language}
