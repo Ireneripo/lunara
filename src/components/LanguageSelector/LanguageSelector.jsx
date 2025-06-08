@@ -52,13 +52,11 @@ function LanguageSelector() {
       </Button>
 
       {isMenuOpen && (
-        <ul
-          onClick={selectLanguage}
-          className="absolute right-[-10px] bottom-full mb-4 bg-[#44423F] rounded-lg shadow-lg pt-3 px-3 pb-4 flex flex-col gap-1 z-50 w-full"
-        >
+        <ul className="absolute right-[-10px] bottom-full mb-4 bg-[#44423F] rounded-lg shadow-lg pt-3 px-3 pb-4 flex flex-col gap-1 z-50 w-full">
           {languages.map((language) => (
             <li
               key={language}
+              onClick={selectLanguage}
               className={`${
                 selectedLanguage === language
                   ? 'bg-[#64605D] rounded-lg'
