@@ -5,11 +5,9 @@ import {
   LinkedinLogo,
   XLogo,
   YoutubeLogo,
-  Globe,
-  CaretDown,
 } from '@phosphor-icons/react';
 
-import Button from '../Button/Button';
+import LanguageSelector from '../LanguageSelector/LanguageSelector';
 
 function FooterEnd() {
   return (
@@ -97,25 +95,7 @@ function FooterEnd() {
             </li>
           </ul>
           <div className="hidden md:flex ml-16 w-max focus:outline-blue-700">
-            <Button className="flex items-center py-3 px-5 border-white rounded-full border-2 max-w-80">
-              <span className="flex items-center justify-between">
-                <Globe
-                  className="mr-3 cursor-pointer"
-                  size={24}
-                  color="white"
-                  weight="bold"
-                />
-                <span className="text-white text-base font-bold mr-3 cursor-pointer">
-                  English
-                </span>
-                <CaretDown
-                  className="cursor-pointer"
-                  size={24}
-                  color="white"
-                  weight="bold"
-                />
-              </span>
-            </Button>
+            <LanguageSelector />
           </div>
         </div>
       </div>
