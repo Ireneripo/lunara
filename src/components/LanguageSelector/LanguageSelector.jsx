@@ -1,12 +1,12 @@
-import React from 'react';
-import { CaretDown, CaretUp, Globe } from '@phosphor-icons/react';
-import Button from '../Button/Button';
+import React from "react";
+import { CaretDown, CaretUp, Globe } from "@phosphor-icons/react";
+import Button from "../Button/Button";
 
 function LanguageSelector() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [selectedLanguage, setSelectedLanguage] = React.useState('English');
+  const [selectedLanguage, setSelectedLanguage] = React.useState("English");
 
-  const languages = ['Deutsch', 'English', 'Español', 'Français', 'Português'];
+  const languages = ["Deutsch", "English", "Español", "Français", "Português"];
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -52,15 +52,15 @@ function LanguageSelector() {
       </Button>
 
       {isMenuOpen && (
-        <ul className="absolute bottom-full mb-4 bg-[#44423F] rounded-lg shadow-lg pt-3 px-3 pb-4 flex flex-col gap-1 z-50 w-full">
+        <ul className="absolute bottom-full mb-4 bg-[#44423E] rounded-lg shadow-lg pt-3 px-3 pb-4 flex flex-col gap-1 z-50 w-full">
           {languages.map((language) => (
             <li
               key={language}
               onClick={selectLanguage}
               className={`${
                 selectedLanguage === language
-                  ? 'bg-[#64605D] rounded-lg'
-                  : 'bg-[#141313]/40'
+                  ? "bg-[#64605D] rounded-lg"
+                  : "bg-[#141313]/40"
               } hover:bg-[#141313] hover:underline rounded-full hover:rounded-lg px-8 py-4 text-white text-base font-semibold flex items-center justify-center cursor-pointer`}
             >
               {language}
@@ -73,3 +73,5 @@ function LanguageSelector() {
 }
 
 export default LanguageSelector;
+
+// #44423E
