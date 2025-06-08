@@ -21,26 +21,28 @@ function LanguageSelector() {
     <div className="relative w-fit">
       <Button
         onClick={toggleMenu}
-        className="flex items-center py-3 px-5 border-white rounded-full border-2 max-w-80"
+        className="py-3 px-5 border-white rounded-full border-2 w-44"
       >
-        <span className="flex items-center justify-between">
+        <span className="flex items-center justify-between w-full">
           <Globe
-            className="mr-3"
+            className="text-white flex-shrink-0"
             size={24}
             color="white"
             weight="bold"
           />
-          <span className="text-white text-base font-bold mr-3">
+          <span className="text-white text-base font-bold mx-2 text-center w-24">
             {selectedLanguage}
           </span>
           {isMenuOpen ? (
             <CaretUp
+              className="flex-shrink-0"
               size={24}
               color="white"
               weight="bold"
             />
           ) : (
             <CaretDown
+              className="flex-shrink-0"
               size={24}
               color="white"
               weight="bold"
