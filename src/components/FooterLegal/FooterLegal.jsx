@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import {
   FacebookLogo,
   InstagramLogo,
   LinkedinLogo,
   XLogo,
   YoutubeLogo,
-} from '@phosphor-icons/react';
+} from "@phosphor-icons/react";
 
-import LanguageSelector from '../LanguageSelector/LanguageSelector';
+import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
-function FooterEnd() {
+function FooterLegal() {
   return (
     <div className="bg-[#44423E] px-8 py-6">
       <div className="flex flex-col-reverse md:flex-row items-center md:justify-between">
@@ -103,4 +103,4 @@ function FooterEnd() {
   );
 }
 
-export default FooterEnd;
+export default FooterLegal;

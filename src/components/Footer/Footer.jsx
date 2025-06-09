@@ -1,10 +1,10 @@
 import React from "react";
-import FooterEnd from "../FooterEnd/FooterEnd";
+import FooterLegal from "../FooterLegal/FooterLegal";
 
 function Footer() {
   return (
     <div>
-      <FooterEnd />
+      <FooterLegal />
     </div>
   );
 }
